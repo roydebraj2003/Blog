@@ -100,13 +100,11 @@ p {
     font-family: blog-font;
     font-size: large;
 }
-button {
-    height: 16px;
-    width: 60px;
-}
+
 @media (max-width: 767px) {
     p {
         font-size: small;
+        overflow: scroll;
     }
   }
 
