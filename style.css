@@ -6,6 +6,7 @@
     gap: 6px;   
 }
 #block:hover {
+    opacity: 0.7;
     cursor: pointer;
     overflow: auto;
 }
