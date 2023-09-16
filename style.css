@@ -104,7 +104,9 @@ p {
 @media (max-width: 767px) {
     p {
         font-size: small;
-        overflow: scroll;
+    }
+    #block {
+        overflow: auto;
     }
   }
 
