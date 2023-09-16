@@ -1,0 +1,114 @@
+.container {
+    background-color: whitesmoke;
+    display:grid;
+    grid-template-rows: 80px 225px 225px 225px;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;   
+}
+#block:hover {
+    cursor: pointer;
+    overflow: auto;
+}
+.block-1{
+    background-color: #F5EBE0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(./5881481.jpg);
+    background-position: top;
+    
+}
+.block-2 {
+    background-color: #F5EBE0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(./5881481.jpg);
+    background-position: right;
+    
+}
+.block-3 {
+    background-color: #F5EBE0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(./5881481.jpg);
+    background-position: bottom;
+}
+.block-4 {
+    background-color: #F5EBE0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(./5881481.jpg);
+    background-position: left;
+}
+.block-5 {
+    background-color: #F5EBE0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(./5881481.jpg);
+    background-position: center;
+}
+.block-6 {
+    background-color: #F5EBE0;
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-image: url(./5881481.jpg);
+    background-position: top;
+    
+}
+
+.tool-bar {
+    grid-column: span 2;
+    background-color: #F5EBE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-image: url(./5881481.jpg);
+    background-position: bottom;
+    
+}
+.heading {
+    background-color: #F5EBE0;
+    padding-top: 10px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: myFont;
+    font-size: xx-large;
+    border: 2px solid;
+    border-radius: 10px; 
+}
+@font-face {
+    font-family: 'myFont';
+    src: url(./FuzzyBubbles-Bold.ttf);
+    
+}
+.date {
+    font-family: myFont;
+}
+@font-face {
+    font-family: 'blog-font';
+    src: url(./IndieFlower-Regular.ttf);
+}
+p {
+    font-family: blog-font;
+    font-size: large;
+}
+button {
+    height: 16px;
+    width: 60px;
+}
+@media (max-width: 767px) {
+    p {
+        font-size: small;
+    }
+  }
+
+    
+
